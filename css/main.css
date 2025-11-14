@@ -1,0 +1,19 @@
+:root {
+    --font-sans-serif: Helvetica, sans-sereif;
+    --black: #000;
+    --white: #fff;
+    --grey: #abb8c3;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: var(--grey);
+    line-height: 1.5;
+}
