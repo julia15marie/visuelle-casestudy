@@ -2,7 +2,7 @@
     --font-sans-serif: Helvetica, sans-sereif;
     --black: #000;
     --white: #fff;
-    --grey: #abb8c3;
+    --grey: #878a89;
 }
 
 html {
@@ -15,5 +15,27 @@ html {
 body {
     font-family: Helvetica, sans-serif;
     color: var(--grey);
+    background: var(--black);
     line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.component img {
+    max-width: initial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.component__headings {
+    color: var(--white);
+}
+
+.component__headings h1 {
+    font-size: medium;
 }
