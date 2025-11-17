@@ -39,3 +39,9 @@ a {
 .component__headings h1 {
     font-size: medium;
 }
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid var(--grey);
+    width: 600px;
+}
