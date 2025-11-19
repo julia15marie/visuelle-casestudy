@@ -45,3 +45,7 @@ li {
     border-bottom: 1px solid var(--grey);
     width: 600px;
 }
+
+.button_header {
+    font-size: 20px;
+}
