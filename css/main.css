@@ -77,6 +77,10 @@ html {
     font-family: Helvetica, sans-serif;
 }
 
+p, h1, h2{
+    font-family: Helvetica, sans-serif;
+}
+
 .home {
     font-family: Helvetica, sans-serif;
 }
@@ -124,4 +128,13 @@ html {
 
 .card__desc {
     margin: 0;
+}
+
+.about {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.about h2 {
+    font-size: 20px;
 }
