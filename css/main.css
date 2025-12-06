@@ -71,6 +71,12 @@ li {
     margin: 0;
 }
 
+
+/* Start of my home page */
+html {
+    font-family: Helvetica, sans-serif;
+}
+
 .home {
     font-family: Helvetica, sans-serif;
 }
@@ -98,4 +104,24 @@ li {
 
 .home-click__about {
     font-size: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    font-size: 20px;
+}
+
+.card__title {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.card__desc {
+    margin: 0;
 }
