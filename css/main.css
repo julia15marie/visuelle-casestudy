@@ -50,7 +50,7 @@ li {
     font-size: 20px;
     list-style-type: none;
     border-bottom: 1px solid var(--grey);
-    width: 900px;
+    width: 1000px;
 }
 
 .button_header {
@@ -93,13 +93,13 @@ p, h1, h2{
 }
 
 .home-nav {
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 .home-click {
     display: flex;
-    gap: 785px;
-    margin-left: 540px;
+    gap: 885px;
+    margin-left: 440px;
 }
 
 .home-click__search {
@@ -129,12 +129,40 @@ p, h1, h2{
 .card__desc {
     margin: 0;
 }
+/* End of my home page */
 
+/* Start of my about page */
 .about {
     color: var(--white);
-    font-size: 20px;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 515px 1fr;
+    grid-gap: 50px;
+    line-height: 1.2;
+    margin-left: 440px;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .about h2 {
-    font-size: 20px;
+    font-size: 18px;
 }
+
+.about p {
+    margin: 0;
+}
+
+.about a {
+    text-decoration: underline;
+}
+
+.about__desc {
+    display: block;
+    text-align: left;
+}
+
+.about__desc2 {
+    display: block;
+    text-align: left;
+}
+/* End of my about page */
