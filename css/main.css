@@ -166,3 +166,41 @@ p, h1, h2{
     text-align: left;
 }
 /* End of my about page */
+
+/* Start of card page */
+.card__headings {
+    color: var(--white);
+    font-size: 20px;
+    display: flex;
+    margin-left: 30px;
+    gap: 285px;
+}
+
+.card__headings p {
+    margin: 0;
+}
+
+.card__desc {
+    display: flex;
+}
+
+.card__desc img {
+    margin: 30px;
+    width: 800px;
+}
+
+.card__flexright {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.card__desc-text {
+    color: var(--white);
+    font-size: 20px;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* End of card page */
